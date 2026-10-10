@@ -1,0 +1,13 @@
+﻿Code;Anomalie;Gravite;Nb_credits;Part_portefeuille_%;Montant_concerne_MFCFA;Reference
+R01;Revenu négatif ou nul;Critique;5;1,0;18,5;Valeur impossible
+R02;Statut « Bon » avec impayé > 90 jours;Critique;2;0,4;2,0;Instruction BCEAO 026-11-2016, art. 8 : déclassement obligatoire en douteux
+R03;Montant de crédit extrême;Élevée;1;0,2;95,0;Valeur très éloignée (Q3 + 3 x IQR)
+R04;Taux > taux d'usure bancaire (15 %);Élevée;156;31,2;596,5;Loi sur l'usure UMOA (apprécié sur le TEG, toujours >= taux nominal)
+R05;Mensualité supérieure au revenu;Élevée;40;8,0;432,0;Incohérence revenu / montant
+R06;Revenu extrême;Modérée;1;0,2;1,0;Valeur très éloignée (Q3 + 3 x IQR)
+R07;Taux d'endettement entre 33% et 100 %;Modérée;139;27,8;876,0;Pratique bancaire courante (~1/3 du revenu), hypothèse de travail
+R08;Déclassé sans impayé > 90 jours;Modérée;176;35,2;643,5;Instruction BCEAO 026-11-2016, art. 8-1° et 9 : possible si risque avéré, à justifier
+R09;Revenu manquant;Information;20;4,0;78,5;Donnée manquante
+R10;Taux d'intérêt manquant;Information;10;2,0;50,0;Donnée manquante
+R11;Garantie non renseignée;Information;48;9,6;153,0;Donnée ambiguë
+R12;Âge manquant;Information;15;3,0;61,5;Donnée manquante

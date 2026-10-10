@@ -1,0 +1,4 @@
+﻿Scenario;Nb_credits_douteux;Taux_douteux_%;Montant_douteux_MFCFA;Provision_min_MFCFA
+A. Statut déclaré;176;35,2;643,5;67,8
+B. Statut corrigé (A + déclassements obligatoires);178;35,6;645,5;68,3
+C. Impayé > 90 j uniquement;2;0,4;2,0;0,5
